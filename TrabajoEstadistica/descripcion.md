@@ -11,9 +11,9 @@ Una vez hallamos entrado al link, seleccionaremos lo siguiente:
 - Cuarto desplegable: Los doce meses de 2016 y los de 2017.
 Por último, le daremos a "Consultar selección".
 
-Una vez obtenida la tabla deseada, se han extraído con WebScraping mediante la función leerIndices() del [fichero JavaScript](TrabajoEstadistica/funcion.js)
+Una vez obtenida la tabla deseada, se han extraído con WebScraping mediante la función leerIndices() del [fichero JavaScript](../TrabajoEstadistica/funcion.js)
 
-Estos datos obtenidos se han guardado posteriormente como JSON en un fichero de nombre [indData.js](TrabajoEstadistica/indData.js).
+Estos datos obtenidos se han guardado posteriormente como JSON en un fichero de nombre [indData.js](../TrabajoEstadistica/indData.js).
 
 Para visualizar los datos, se ha empleado la librería de [Google Chart](https://developers.google.com/chart/) y el tipo de gráfico [Line Chart](https://developers.google.com/chart/interactive/docs/gallery/linechart).
-El resultado es el que se muestra en la página [chart.html](TrabajoEstadistica/chart.html)
+El resultado es el que se muestra en la página [chart.html](../TrabajoEstadistica/chart.html)
