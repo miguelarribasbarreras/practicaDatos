@@ -13,7 +13,7 @@ Una vez hallamos entrado al link, seleccionaremos lo siguiente:
 
 Por último, le daremos a "Consultar selección".
 
-Una vez obtenida la tabla deseada, se han extraído con WebScraping mediante la función leerIndices() del [fichero JavaScript](../TrabajoEstadistica/funcion.js)
+Una vez obtenida la tabla deseada, los datos se han extraído con WebScraping mediante la función leerIndices() del [fichero JavaScript](../TrabajoEstadistica/funcion.js)
 
 Estos datos obtenidos se han guardado posteriormente como JSON en un fichero de nombre [indData.js](../TrabajoEstadistica/indData.js).
 
