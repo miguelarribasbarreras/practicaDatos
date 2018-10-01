@@ -1,0 +1,53 @@
+ <html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script type="text/javascript" src="indData.js"></script>
+    <script type="text/javascript">     
+	  google.charts.load('current', {'packages':['line']});
+      google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var dataTable = new google.visualization.DataTable();
+		dataTable.addColumn('string', 'Mes');
+        dataTable.addColumn('number', 'Índice');
+		dataTable.addColumn('number', 'Bienes de Consumo');
+		dataTable.addColumn('number', 'Bienes de Consumo Duradero');
+		dataTable.addColumn('number', 'Bienes de Consumo No Duradero');
+		dataTable.addColumn('number', 'Bienes De Equipo');
+		dataTable.addColumn('number', 'Bienes Intermedios');
+		dataTable.addColumn('number', 'Energía');
+
+        x=[]; y=[]; h=[]; g=[]; k=[]; d=[]; n=[]; text=[];  
+        for (i=(obj.length)-1;i>0;i=i-1) {
+          text[i]=obj[i][0];
+          y[i]=obj[i][1];
+          h[i]=obj[i][2];
+		  g[i]=obj[i][3];
+		  k[i]=obj[i][4];
+		  d[i]=obj[i][5];
+		  n[i]=obj[i][6];
+		  x[i]=obj[i][7];
+		  
+		  dataTable.addRows([[text[i], y[i], h[i], g[i], k[i], d[i], n[i], x[i]]]);	
+        }
+
+      var options = {
+        chart: {
+            title: 'Índice de Producción Nacional 2016 y 2017',
+            subtitle: 'Índice General',
+        },
+        width: 1500,
+        height: 750
+      };
+
+      var chart = new google.charts.Line(document.getElementById('linechart_material'));
+
+      chart.draw(dataTable, google.charts.Line.convertOptions(options));
+    }
+    </script>
+  </head>
+  <body>
+    <div id="linechart_material" style="width: 4000px; height: 1500px;"></div>
+  </body>
+</html>
