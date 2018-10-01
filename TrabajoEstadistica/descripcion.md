@@ -10,6 +10,7 @@ Una vez hallamos entrado al link, seleccionaremos lo siguiente:
 - Segundo desplegable: Todas las opciones.
 - Tercer desplegable: Índice (solamente).
 - Cuarto desplegable: Los doce meses de 2016 y los de 2017.
+
 Por último, le daremos a "Consultar selección".
 
 Una vez obtenida la tabla deseada, se han extraído con WebScraping mediante la función leerIndices() del [fichero JavaScript](../TrabajoEstadistica/funcion.js)
