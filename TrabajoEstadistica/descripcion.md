@@ -1,4 +1,4 @@
-# Trabajo Estadística. Estudio del Indice de Producción Industrial Nacional
+# Trabajo Estadística. Estudio del Índice de Producción Industrial Nacional
 
 Este trabajo tiene el objetivo de recoger los datos acerca del Índice de Producción Industrial Nacional de España de los años 2016-2017 y representarlo graficamente en un gráfico lineal (Line Chart).
 El IPI es un indicador coyuntural que mide la evolución de la actividad productiva de las ramas industriales. El índice tiene como objetivo medir la evolución del volumen del valor añadido bruto generado por las ramas industriales y el conjunto de la industria. Por lo tanto, mide los cambios en la producción industrial sin el efecto de los precios.
